@@ -1,8 +1,18 @@
 {
-  "name": "ts-project-template",
+  "name": "typescript-project-template",
   "version": "1.0.0",
-  "description": "Simple TypeScript project template",
-  "main": "dist/index.js",
+  "description": "Clean TypeScript project template with ESLint, Prettier, Jest, Husky, and Commitlint",
+  "main": "dist/src/index.js",
+  "keywords": ["typescript", "template", "eslint", "prettier", "jest", "husky", "commitlint", "nodejs"],
+  "author": "Sakharam Thorat<sakharam.thorat@vonage.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sthorat789/ts_eslint_prettier.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sthorat789/ts_eslint_prettier/issues"
+  },
+  "homepage": "https://github.com/sthorat789/ts_eslint_prettier#readme",
   "scripts": {
     "build": "tsc",
     "dev": "tsx src/index.ts",
